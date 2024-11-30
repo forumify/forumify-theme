@@ -221,6 +221,12 @@ class ForumifyTheme extends AbstractForumifyTheme
                     defaultValue: '8px'
                 ),
                 new ThemeVar(
+                    key: 'button-border-radius',
+                    label: 'Button Border Radius',
+                    type: ThemeVarType::Size,
+                    defaultValue: '24px'
+                ),
+                new ThemeVar(
                     key: 'font-size',
                     label: 'Font Size',
                     type: ThemeVarType::Size,
